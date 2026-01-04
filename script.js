@@ -13,7 +13,7 @@ function movePage(e, page) {
     currentPage += 2;
     toggleClass(e, "left-side");
     toggleClass(e.nextElementSibling, "left-side");
-  } else if (page == currentPage - 1) { // AICI era eroarea, trebuie "==" în loc de "="
+  } else if (page == currentPage - 1) 
     currentPage -= 2;
     toggleClass(e, "left-side");
     toggleClass(e.previousElementSibling, "left-side");
